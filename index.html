@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barry’s Bevvies </title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <script src="script.js" async></script>
+</head>
+<body>
+  <div class="container">
+  <h1>Barry’s Bevvies </h1>
+  <h2>The Menu</h2>
+
+  <div>
+    <label for="size">Pick your Size</label>
+    <select id="size">
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+      <option value="Extra Large">Extra Large</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="type">Type of Drink</label>
+    <select id="type" multiple>
+      <option value="Smoothie">Smoothie</option>
+      <option value="Milkshake">Milkshake</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="ingredients">ingredient</label>
+    <select id="ingredients" multiple>
+      <option value="Banana">Banana</option>
+      <option value="Raspberries">Raspberries</option>
+      <option value="Strawberries">Strawberries</option>
+      <option value="Blueberries">Blueberries</option>
+      <option value="Mango">Mango</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="base">Base:</label>
+    <select id="base"></select>
+  </div>
+
+  <div id="extras" class="container" >
+    <p>Extra Topping</p>
+    <label><input type="checkbox" name="extras" value="Whipped Cream" class="checkbox-group"> Whipped Cream</label>
+    <label><input type="checkbox" name="extras" value="Marshmallows" class="checkbox-group"> Marshmallows</label>
+    <label><input type="checkbox" name="extras" value="Flake" class="checkbox-group"> Flake</label>
+    <label><input type="checkbox" name="extras" value="Baileys" class="checkbox-group"> Baileys</label>
+    <label><input type="checkbox" name="extras" value="Malt" class="checkbox-group"> Malt</label>
+  </div>
+
+  <button id="addOrder" class="order-btn">Add Order</button>
+  <button id="favoriteDrink" class="order-btn">Best Seller Menu</button>
+  
+
+  <div id="currentDrink">
+    <h2>Current Drink:</h2>
+    <p id="currentDrinkDetails"></p>
+    <p id="currentDrinkPrice"></p>
+  </div>
+
+  <div>
+    <button id="saveFavouriteButton" class="order-btn" >Save My Favourite</button>
+    <button id="orderFavouriteButton" class="order-btn">Order My Favourite</button>
+  </div>
+
+  <div id="currentOrder">
+    <h2>Current Order:</h2>
+    <ul id="orderList"></ul>
+    <p id="totalPrice"></p>
+  </div>
+  <button id="placeOrder" class="order-btn">Place Order</button>
+</div>
+  
+</body>
+</html>
