@@ -1,7 +1,7 @@
 # Menu-Reservation-VanillaJS
 This is a web reservation menu build with only vanillaJS without any framework
 
-🚀 [Repository Name] - [Brief Description]
+🚀 Menu Reservation - Simple JS menu reservation
 
 Welcome to Menu Reservation Web App! This is a freelance project aimed at Customer goals. The project is built using only HTML, CSS, JS without framework and we're excited to share what we've accomplished.
 
